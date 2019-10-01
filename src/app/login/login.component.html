@@ -1,0 +1,18 @@
+<!-- <p>login works!</p>
+<form [formGroup]="v1">
+    email:<input type="text"   formControlName="email">&nbsp;&nbsp;
+    password:<input type="text"   formControlName="pass">&nbsp;&nbsp;
+    <button (click)="s1(v1.value)" [routerLink]="['/dashboard']">login</button>
+</form>  -->
+<div class="log">
+    <form [formGroup]="panda">
+       <h1><fieldset>login</fieldset></h1>
+       <h2>email:<br>
+       <input type="email" name="useremail" formControlName="email" placeholder="username"></h2>
+       <h2>password:<br>
+       <input type="password" name="text" formControlName="password" placeholder="password"></h2>
+       <button (click)="login(panda.value)" [routerLink]="['/dashboard']">login</button>
+    </form>
+    </div>
+    <h1 style="border-radius:40px">New Project LOGIN page click And Add login</h1>
+    

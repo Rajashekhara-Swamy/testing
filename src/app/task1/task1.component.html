@@ -1,0 +1,9 @@
+<form [formGroup]="r1">
+    
+        <input type="text" formControlName="userId" placeholder="enter your UserId"><br>
+        <input type="text" formControlName="title" placeholder="enter your Title"><br>
+        <input type="text" formControlName="completed" placeholder="enter your Completed states"><br>
+        <div>  <button (click)="r2(r1.value)">submit</button></div>
+
+    
+</form>

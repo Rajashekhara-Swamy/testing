@@ -1,0 +1,18 @@
+Search<input type="text" placeholder="Search">
+<p (click)="add()">create new task</p>
+<hr color="red">
+<table>
+    <tr>
+        <th>UserId</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Complited</th>
+    </tr>
+    <tr *ngFor="let a of task1">
+        <td>{{a.UserId}}</td>
+        <td>{{a.id}}</td>
+        <td>{{a.title}]</td>
+        <td>{{a.complited}}</td>
+
+    </tr>
+</table>

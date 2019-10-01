@@ -1,0 +1,7 @@
+<h2>Welcome to posts page</h2>
+<hr color="red">
+<div *ngFor="let a of posts1" (click)="p1(a)">
+    <h3><p><Title>:{{a.title}}</Title></p></h3>
+    <p>Body:{{a.body}}</p>
+</div>
+
